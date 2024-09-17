@@ -14,7 +14,7 @@ class UserController{
                 'perfil' => $_POST['perfil']
             ];
             //chama o método create do model User para criar o novo usuário no BD
-            User:create($data);
+            User::create($data);
             header('Location: index.php');
         } else{
             include 'views/register.php';
