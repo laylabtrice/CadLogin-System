@@ -10,7 +10,7 @@
 </head>
 <body>
     <main>
-        <form action="">
+        <form action="index.php?action=login" method="post">
             <section>
                 <label for="">E-mail</label>
                 <input type="email" name="email" placeholder="email" required>  

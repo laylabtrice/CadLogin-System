@@ -26,8 +26,13 @@ class AuthController
 
                 $_SESSION['usuario_id'] = $user['id'];
                 $_SESSION['perfil'] = $user['perfil'];
-                header('');
+
+                header('Localtion: index.php?action=dashboard');
+            }else{
+                echo "Email ou senha incorretos";
             }
+        }else{
+            include 'views/login.php';
         }
     }
 
