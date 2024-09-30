@@ -10,6 +10,8 @@ O Sistema de Cadastro de Usuários permite o registro e login de usuários com t
 4. [Fluxo Básico do Sistema](#fluxo-básico-do-sistema)
 5. [Organização do Projeto](#organização-do-projeto)
 6. [Arquitetura da Base de Dados](#arquitetura-da-base-de-dados)
+7. [Fontes para Pesquisa](#fontes-para-pesquisa)
+8. [Créditos](#créditos)
 
 ## **Instalação do Projeto:**
 
@@ -77,3 +79,13 @@ O projeto está dividido em diferentes arquivos e pastas que organizam seu funci
         created_at TIMESTAMP DEFAULT current_timestamp  -- Data e hora de criação do registro, com valor padrão sendo o momento atual da criação.
     );
 ```
+
+## **Fontes para Pesquisa:**
+
+- BASE DE DADOS:
+1. https://pt.stackoverflow.com/questions/488716/id-primary-key-auto-increment-come%C3%A7ando-do-1
+2.https://stackoverflow.com/questions/168736/how-do-you-set-a-default-value-for-a-mysql-datetime-column
+
+## **Créditos:**
+
+Feito em aulas do professor *Leonardo Santiago Sidon da Rocha*, README e CSS por [@laylabtrice](https://github.com/laylabtrice).
