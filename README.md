@@ -3,14 +3,18 @@
 **Descrição Geral do Projeto:**
 O Sistema de Cadastro de Usuários permite o registro e login de usuários com três perfis: Admin, Gestor e Colaborador. Cada perfil tem permissões específicas, facilitando a gestão e o acesso ao sistema de forma segura e eficiente.
 
-#
+## Índice
+1. [Instalação do Projeto](#instalação-do-projeto)
+2. [Funcionalidades Principais](#funcionalidades-principais)
+3. [Estrutura do Sistama](#estrutura-do-sistema)
+4. [Fluxo Básico do Sistema](#fluxo-básico-do-sistema)
+5. [Organização do Projeto](#organização-do-projeto)
+6. [Arquitetura da Base de Dados](#arquitetura-da-base-de-dados)
 
-## **Instalação do projeto:**
+## **Instalação do Projeto:**
 
 **Requisitos mínimos:**
 1. Apache (Xampp)
-
-#
 
 **Download do projeto:**
 
@@ -24,13 +28,9 @@ Acesse a pasta ```C:\xampp\htdocs``` e execute o seguinte comando:
 
 Abre seu navegador e digite ```localhost/CadLogin-System```
 
-#
-
 ## **Funcionalidades Principais:**
 - **Tela de Login:** Permite que o usuário faça login no sistema com seu e-mail e senha.
 - **Tela de Registro:** Permite que novos usuários se cadastrem e escolham seu perfil (Admin, Gestor ou Colaborador).
-
-#
 
 ## **Estrutura do Sistema**
 
@@ -42,15 +42,11 @@ O sistema é organizado de forma a separar as funções em três partes principa
 
 **Visões:** As telas que os usuários veem e interagem.
 
-#
-
 ## **Fluxo Básico do Sistema**
 
 **Login:** O usuário insere suas credenciais (e-mail e senha) para acessar o sistema. Se as credenciais forem válidas, ele é redirecionado para sua área correspondente (Admin, Gestor ou Colaborador).
 
 **Registro:** Novos usuários podem se cadastrar, inserindo nome, e-mail, senha e escolhendo o perfil.
-
-#
 
 ## **Organização do Projeto**
 
@@ -62,9 +58,6 @@ O projeto está dividido em diferentes arquivos e pastas que organizam seu funci
 
 **routes.php:** Define as rotas e ações a serem executadas no sistema.
 
-#
-
-
 ```
     C:.
     ├── controllers/       # Regras de negócio
@@ -72,9 +65,7 @@ O projeto está dividido em diferentes arquivos e pastas que organizam seu funci
     └── views/             # Telas de interface do usuário
 ```
 
-#
-
-## **Arquitetura da base de dados:**
+## **Arquitetura da Base de Dados:**
 
 ``` sql 
     CREATE TABLE `usuarios` (
