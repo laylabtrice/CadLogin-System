@@ -84,7 +84,7 @@ O projeto está dividido em diferentes arquivos e pastas que organizam seu funci
 
 - BASE DE DADOS:
 1. https://pt.stackoverflow.com/questions/488716/id-primary-key-auto-increment-come%C3%A7ando-do-1
-2.https://stackoverflow.com/questions/168736/how-do-you-set-a-default-value-for-a-mysql-datetime-column
+2. https://stackoverflow.com/questions/168736/how-do-you-set-a-default-value-for-a-mysql-datetime-column
 
 ## **Créditos:**
 
