@@ -9,6 +9,7 @@
 </head>
 <body>
     <main>
+    <h2>Login de usuário</h2>
         <form action="index.php?action=login" method="post">
             <section>
                 <label for="">E-mail</label>
